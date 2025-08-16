@@ -104,9 +104,6 @@ export const FALSE_POSITIVE_REPORT_BASE_URL =
 export const SECURITY_PROVIDER_UTM_SOURCE = 'metamask-ppom';
 
 export const SECURITY_PROVIDER_EXCLUDED_TRANSACTION_TYPES = [
-  TransactionType.swap,
-  TransactionType.swapApproval,
-  TransactionType.swapAndSend,
   TransactionType.bridgeApproval,
   TransactionType.bridge,
 ];
